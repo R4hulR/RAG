@@ -1,5 +1,5 @@
 # Retrieval Augmented Generation (RAG) for PDF Question Answering
-![Workflow Image](workflow.png)
+![Workflow Image](flowchart.png)
 This repository implements a Retrieval Augmented Generation (RAG) system for answering questions based on PDF documents. The project leverages powerful language models and embedding techniques within Google Colab to enhance the accuracy and efficiency of question answering.
 
 ## Key Features
