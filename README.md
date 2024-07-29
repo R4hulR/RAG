@@ -27,7 +27,7 @@ The system automatically detects available GPU memory and selects an appropriate
 - < 5.1 GB: Warns about insufficient memory
 - 5.1 - 8 GB: Uses Gemma 2B with 4-bit precision
 - 8 - 19 GB: Uses Gemma 2B in float16 or Gemma 7B in 4-bit precision
-- > 19 GB: Recommends Gemma 7B in 4-bit or float16 precision
+- 19 GB >: Recommends Gemma 7B in 4-bit or float16 precision
 
 ### Model Loading
 - Utilizes the Hugging Face Transformers library to load the Gemma model.
